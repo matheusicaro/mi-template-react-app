@@ -1,23 +1,21 @@
-import { Typography } from '@mui/material';
 import React from 'react';
 
 import styled from 'styled-components';
+import { Text } from './';
 
 /**
  * Footer component
  *
  */
-const Footer: React.FC = () => {
-  return (
-    <Container>
-      <a href="https://matheusicaro.com" rel="noopener noreferrer" target="_blank" title="Project repository">
-        <Typography variant="body1" component="span">
-          matheusicaro.com
-        </Typography>
-      </a>
-    </Container>
-  );
-};
+const Footer: React.FC = () => (
+  <Container>
+    <a href="https://matheusicaro.com" rel="noopener noreferrer" target="_blank" title="Project repository">
+      <Text variant="body1" component="span">
+        matheusicaro.com
+      </Text>
+    </a>
+  </Container>
+);
 
 export default Footer;
 

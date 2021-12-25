@@ -1,12 +1,30 @@
-import React from "react";
-import Banner from "../../components/Banner";
-import Footer from "../../components/Footer";
+import React from 'react';
+
+import { Stack, Switch } from '@mui/material';
+
+import { useTheme } from '../../styles/provider';
+import { Banner, Footer, Text } from '../../components';
 
 const HomePage: React.FC = (props) => {
+  const { theme, toggleTheme } = useTheme();
+
+  const ToggleTheme = () => {
+    return (
+      <Stack style={{ justifyContent: 'center' }} direction="row" spacing={1} alignItems="center" component="section">
+        <Text>Light Theme</Text>
+        <Switch checked={theme === 'dark'} onChange={toggleTheme} />
+        <Text>Dark Theme</Text>
+      </Stack>
+    );
+  };
+
   return (
     <main>
       <Banner />
-      <h1> Hello</h1>
+      <ToggleTheme />
+      <Text style={{ placeContent: 'center', height: '50vh', display: 'grid' }} variant="h1">
+        Hello
+      </Text>
       <Footer />
     </main>
   );

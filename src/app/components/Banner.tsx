@@ -1,9 +1,9 @@
-import React from "react";
+import React from 'react';
 
-import styled from "styled-components";
+import styled from 'styled-components';
 
-import packageJSON from "../../../package.json";
-import LogoBackground from "../assets/images/logo_background.png";
+import packageJSON from '../../../package.json';
+import LogoBackground from '../assets/images/logo_background.png';
 
 /**
  * Banner component with introduction and general application information
@@ -14,16 +14,11 @@ const Banner: React.FC = () => {
   return (
     <Container>
       <p className="banner-contrast">{description}</p>
-      <p className="banner-topics">{`- Developed with ${tags.join(", ")}`}</p>
+      <p className="banner-topics">{`- Developed with ${tags.join(', ')}`}</p>
       <p className="banner-topics">
         - Repository at:
-        <a
-          href={repository.url}
-          rel="noopener noreferrer"
-          target="_blank"
-          title="Project repository"
-        >
-          {` Github`}
+        <a href={repository.url} rel="noopener noreferrer" target="_blank" title="Project repository">
+          {' Github'}
         </a>
       </p>
     </Container>
@@ -37,30 +32,30 @@ const Container = styled.section`
   padding-top: 60px;
   margin-bottom: 40px;
   border: none;
-  background-color: #2f2f2f;
 
   background-image: url(${LogoBackground});
   background-repeat: no-repeat;
   background-position: 90% 80%;
-  background-size: 400px;
+  background-size: 360px;
 
-  color: rgb(255, 255, 255, 0.9);
+  background-color: ${({ theme }) => (theme.title === 'light' ? '#2f2f2f' : '#f1f1f1')};
 
+  &,
   .banner-contrast {
-    color: #ffffff;
+    color: ${({ theme }) => theme.colors.background.primary};
   }
 
   .banner-topics {
-    color: #a3d0f1;
+    color: ${({ theme }) => (theme.title === 'light' ? '#a3d0f1' : '#098beb')};
 
     & > a {
-      color: aquamarine;
+      color: ${({ theme }) => (theme.title === 'light' ? 'aquamarine' : '#e90dce')};
     }
   }
 
   & p {
     border-right: 0.15em solid;
-    font-family: "Courier";
+    font-family: 'Courier';
     font-size: 20px;
     white-space: nowrap;
     overflow: hidden;
@@ -72,8 +67,7 @@ const Container = styled.section`
     max-width: fit-content;
     opacity: 0;
 
-    -webkit-animation: type 2s steps(40, end),
-      blink 0.2s step-end infinite alternate;
+    -webkit-animation: type 2s steps(40, end), blink 0.2s step-end infinite alternate;
     animation: type 2s steps(40, end), blink 0.2s step-end infinite alternate;
 
     -webkit-animation-delay: 2s;
@@ -91,10 +85,8 @@ const Container = styled.section`
   & p:nth-child(3) {
     opacity: 0;
 
-    -webkit-animation: typefinal 2s steps(40, end),
-      blink 0.2s step-end infinite alternate;
-    animation: typefinal 2s steps(40, end),
-      blink 0.2s step-end infinite alternate;
+    -webkit-animation: typefinal 2s steps(40, end), blink 0.2s step-end infinite alternate;
+    animation: typefinal 2s steps(40, end), blink 0.2s step-end infinite alternate;
 
     -webkit-animation-fill-mode: forwards;
     animation-fill-mode: forwards;

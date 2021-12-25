@@ -20,5 +20,6 @@
   },
   "include": ["src", ".eslintrc.js"],
   "exclude": ["node_modules", "__tests__/*.test.ts"],
-  "typeRoots": ["node_modules/@types"]
+  "typeRoots": ["node_modules/@types"],
+  "files": ["src/app/styles/themes/styledComponents.d.ts"]
 }
