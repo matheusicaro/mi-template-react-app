@@ -31,7 +31,7 @@ const ThemeContext = createContext<ThemeState>({
 /**
  * Global theme provider for App encapsulated by Styled Components and Material-UI.
  */
-const ThemeGlobalProvider = ({ children }: any) => {
+const ThemeGlobalProvider = ({ children }: unknown) => {
   const [state, setState] = useState<StateType>({ theme: initialTheme });
 
   const toggleTheme = () => setState(state.theme.name === 'light' ? newTheme(themes.dark) : newTheme(themes.light));
