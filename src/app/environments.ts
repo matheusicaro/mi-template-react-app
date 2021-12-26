@@ -1,3 +1,3 @@
 export default {
-  baseURL: process.env.REACT_APP_BACKEND_API_URL as string,
+  hostBaseURL: process.env.REACT_APP_HOST_BACKEND_API as string,
 };
