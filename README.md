@@ -7,7 +7,7 @@
 <br>
 <br>
 
-## 1. branch: [Redux/typescript-and-sagas](https://github.com/matheusicaro/template-react-app/tree/Redux/typescript-and-sagas)
+## 1. branch: [Redux \ typescript-and-sagas](https://github.com/matheusicaro/template-react-app/tree/Redux/typescript-and-sagas)
    
    **React** with:
    - TypeScript
@@ -19,7 +19,7 @@
    
    <br>
 
-## 2. branch: [GraphQL/typescript-and-apollo-clientReact](https://github.com/matheusicaro/template-react-app/tree/GraphQL/typescript-and-apollo-client)
+## 2. branch: [GraphQL \ typescript-and-apollo-clientReact](https://github.com/matheusicaro/template-react-app/tree/GraphQL/typescript-and-apollo-client)
    
    **React** with:
    - TypeScript
