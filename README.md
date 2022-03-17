@@ -21,7 +21,6 @@
 
 ## 2. branch: [GraphQL/typescript-and-apollo-clientReact](https://github.com/matheusicaro/template-react-app/tree/GraphQL/typescript-and-apollo-client)
    
-   **React** with **GraphQL** + **TypeScript** + **Apollo Client** + **Material-UI** + **Styled Components**
    **React** with:
    - TypeScript
    - **GraphQL**
