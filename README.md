@@ -1,10 +1,33 @@
-### REACT - My pre-configured templates to start projects in react organized by "branch"
+[![license](https://img.shields.io/github/license/DAVFoundation/captain-n3m0.svg?style=flat-square)](https://github.com/matheusicaro/template-react-app/blob/main/LICENSE)
 
 ---
+> ### Here are my templates for launching projects using different configuration packages and technologies associated with the [React](https://reactjs.org/) universe.
+> **Each branch contains a different configuration, as specified below.**
+---
+<br>
+<br>
 
-1. master/here
-2. [branch: Redux/typescript-and-sagas](https://github.com/matheusicaro/template-react-app/tree/Redux/typescript-and-sagas)
-   <br> React with Redux + TypeScript + Redux-Saga + Ducks Patterns + Material-UI + Styled Components
+## 1. branch: [Redux/typescript-and-sagas](https://github.com/matheusicaro/template-react-app/tree/Redux/typescript-and-sagas)
+   
+   **React** with:
+   - TypeScript
+   - **Redux**
+   - **Redux-Saga**
+   - **Ducks Patterns**
+   - Material-UI
+   - Styled Components
+   
+   <br>
 
-3. [branch: GraphQL/typescript-and-apollo-clientReact](https://github.com/matheusicaro/template-react-app/tree/GraphQL/typescript-and-apollo-client)
-   <br> React with GraphQL + TypeScript + Apollo Client + Material-UI + Styled Components
+## 2. branch: [GraphQL/typescript-and-apollo-clientReact](https://github.com/matheusicaro/template-react-app/tree/GraphQL/typescript-and-apollo-client)
+   
+   **React** with **GraphQL** + **TypeScript** + **Apollo Client** + **Material-UI** + **Styled Components**
+   **React** with:
+   - TypeScript
+   - **GraphQL**
+   - **Apollo Client**
+   - **React Context API**
+   - Material-UI
+   - Styled Components
+   
+   <br>
