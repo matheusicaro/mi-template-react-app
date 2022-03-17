@@ -19,7 +19,7 @@
    
    <br>
 
-## 2. branch: [GraphQL \ typescript-and-apollo-clientReact](https://github.com/matheusicaro/template-react-app/tree/GraphQL/typescript-and-apollo-client)
+## 2. branch: [GraphQL \ typescript-and-apollo-client](https://github.com/matheusicaro/template-react-app/tree/GraphQL/typescript-and-apollo-client)
    
    **React** with:
    - TypeScript
