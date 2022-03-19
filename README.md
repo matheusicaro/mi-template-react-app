@@ -2,6 +2,10 @@
 
 <br>
 
+# TEMPLATE: GraphQL/typescript-and-apollo-client
+
+<br>
+
 ## Project Specifications
 
 - Used **[React](https://reactjs.org/)** with:
