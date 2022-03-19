@@ -2,6 +2,10 @@
 
 <br>
 
+# TEMPLATE: Redux/typescript-and-sagas
+
+<br>
+
 ## Project Specifications
 
 - Used **[React](https://reactjs.org/)** with:
