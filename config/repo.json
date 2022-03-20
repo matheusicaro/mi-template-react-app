@@ -29,7 +29,9 @@
 		"Redux-Saga",
 		"Redux",
 		"Styled-components",
-		"TypeScript"
+		"TypeScript",
+		"JavaScript",
+		"Front-end"
 	],
 	"stack": {
 		"frontend": [{
