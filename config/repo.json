@@ -27,7 +27,7 @@
 		"Apollo-client",
 		"Material-UI",
 		"Redux",
-		"Styled-components",
+		"Styled-Components",
 		"TypeScript",
 		"JavaScript",
 		"Front-end"
@@ -43,7 +43,7 @@
 				"React Context API",
 				"Redux-Saga",
 				"Redux",
-				"Styled-components",
+				"Styled-Components",
 				"TypeScript",
 				"Ducks Patterns"
 			]
